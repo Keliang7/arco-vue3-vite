@@ -80,6 +80,10 @@ ASelect: typeof import('@arco-design/web-vue')['Select']
 }
 ```
 
+### 注意事项
+
+如果你使用的是 ArcoDesign 2.44.7 版本，该版本对类型支持进行了优化，可以更好地识别组件的 `props`、事件和 `slots` 类型，提升开发体验。
+
 ---
 
 ## 结语
